@@ -10,11 +10,9 @@ export default function AuthLayout() {
       }}
     >
       <Stack.Screen name="login" />
-      {/* <Stack.Screen name="otp-verify" />
-      <Stack.Screen name="onboarding" />
+      <Stack.Screen name="otp-verify" />
       <Stack.Screen name="basic-identity" />
       <Stack.Screen name="academic-background" />
-      <Stack.Screen name="signup-success" /> */}
     </Stack>
   );
 }
