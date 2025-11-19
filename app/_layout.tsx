@@ -41,7 +41,7 @@ export default function RootLayout() {
             <Stack.Screen name="(auth)" />{' '}
           </Stack.Protected>
           <Stack.Protected guard={!!token}>
-            <Stack.Screen name="(tabs)" />
+            <Stack.Screen name="(drawer)" />
           </Stack.Protected>
         </Stack>
       </SafeAreaView>
